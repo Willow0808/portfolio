@@ -36,6 +36,7 @@
     "deploy": "npm run build && gh-pages -d build",
     "predeploy": "npm run build"
   },
+  "homepage": "https://timkim890.github.io/sohyun/",
   "eslintConfig": {
     "extends": [
       "react-app",
