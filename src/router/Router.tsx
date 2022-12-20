@@ -4,17 +4,15 @@ import { About } from "../components/pages/About"
 import { Project } from "../components/pages/Project"
 
 
-const homeUrl = process.env.PUBLIC_URL;
-
 const Router = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path={`${process.env.PUBLIC_URL}/home`} element={<Home></Home>}>
+                <Route path={`${process.env.PUBLIC_URL}/sohyun/home`} element={<Home></Home>}>
                 </Route>
-                <Route path={`${process.env.PUBLIC_URL}/about`} element={<About></About>}>
+                <Route path={`${process.env.PUBLIC_URL}/sohyun/about`} element={<About></About>}>
                 </Route>
-                <Route path={`${process.env.PUBLIC_URL}/project`} element={<Project></Project>}>
+                <Route path={`${process.env.PUBLIC_URL}/sohyun/project`} element={<Project></Project>}>
                 </Route>
             </Routes>
         </BrowserRouter>
