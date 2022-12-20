@@ -30,13 +30,13 @@ export const Header = () => {
     const navigation = useNavigate()
 
     const onClickHome = () => {
-        navigation("/home")
+        navigation(`${process.env.PUBLIC_URL}/home`)
     }
     const onClickAbout = () => {
-        navigation("/about")
+        navigation(`${process.env.PUBLIC_URL}/about`)
     }
     const onClickProject = () => {
-        navigation("/project")
+        navigation(`${process.env.PUBLIC_URL}/project`)
     }
 
     return(
