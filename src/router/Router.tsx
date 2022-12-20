@@ -10,11 +10,11 @@ const Router = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path={ homeUrl + "/home" } element={<Home></Home>}>
+                <Route path={`${process.env.PUBLIC_URL}/home`} element={<Home></Home>}>
                 </Route>
-                <Route path={ homeUrl + "/about" } element={<About></About>}>
+                <Route path={`${process.env.PUBLIC_URL}/about`} element={<About></About>}>
                 </Route>
-                <Route path={ homeUrl + "/project" } element={<Project></Project>}>
+                <Route path={`${process.env.PUBLIC_URL}/project`} element={<Project></Project>}>
                 </Route>
             </Routes>
         </BrowserRouter>
