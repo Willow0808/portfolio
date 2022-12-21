@@ -19,7 +19,7 @@ export const About = () => {
                 <HStack spacing="100px" margin='auto'>
                     <ProfileImage imagePath={imagePath1}></ProfileImage>
                     <Ssp>
-                    <ProfileText title1='good morning' content1='oniichan'
+                    <ProfileText title1='good morning' content1='timotimo'
                     title2='good afternoon' content2='onechan'
                     title3='good night' content3='papa'
                     ></ProfileText>
