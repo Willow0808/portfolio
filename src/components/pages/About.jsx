@@ -25,6 +25,7 @@ export const About = () => {
                     ></ProfileText>
                     </Ssp>
                 </HStack>
+                <Sp>About Project</Sp>
                 <HStack spacing="100px" margin='auto'>
                     <ProfileImage imagePath={imagePath2}></ProfileImage>
                     <Ssp>
