@@ -5,8 +5,9 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import styled from "styled-components"
-import someimage from "./some.png"
+import styled from "styled-components";
+import someimage from "../home/img/some.png";
+import bgrimage from "../home/img/wireframe.png";
 
 
 
@@ -14,19 +15,16 @@ export const SlideCard = () => {
     return(
         <Sdiv>
         <Fade duration={3000}>
-            <Box marginBottom={0} color="white"
-            bg="white" borderRadius="0px" 
-            textAlign="center" p={0} border="0px" alignItems="center">
 
-                <Swiper spaceBetween={0} color="#000000"
+
+                <Swiper spaceBetween={0}
                     slidesPerView={1}
                     centeredSlides={true}
                     autoplay={{
-                        delay: 25000000000000000,
-                        disableOnInteraction: false,
+                        delay: 2500,
                     }}
                     pagination={{
-                        clickable: true,
+                        clickable: true
                     }}
                     navigation={true} modules={[Autoplay, Pagination, Navigation]} 
                     className="mySwiper">
@@ -34,12 +32,13 @@ export const SlideCard = () => {
                     <SwiperSlide>
                         <Box h="65vh" backgroundColor="#FFFFFF" color="black" 
                         border="2px" borderRadius="3px" alignItems="center">
-                            <a href="http://shincode.info/2021/08/17/cant-display-image-with-react/" target="_blank"><Simg src={someimage} alt="flower-ecsite"/></a>
+                            <a href="https://willow0808.github.io/flower_web/html/index.html" target="_blank"><Simg src={someimage} alt="flower-ecsite"/></a>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
                         <Box h="65vh" backgroundColor="#FFFFFF" color="black" 
                         border="2px" borderRadius="3px" alignItems="center">
+                           <a href="https://www.figma.com/file/ghBdI6RiYekeX7KogXgBUt/flower-ec?node-id=0%3A1&t=Nkh4DI2dX4sJ3Vm1-0" target="_blank"><Simg src={bgrimage} alt="ecsite_wireframe"/></a>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -54,7 +53,6 @@ export const SlideCard = () => {
                     </SwiperSlide>
                 </Swiper>
               
-            </Box>
         </Fade>
         </Sdiv>
     )
