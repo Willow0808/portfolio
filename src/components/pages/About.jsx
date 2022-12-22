@@ -4,7 +4,7 @@ import { ProfileImage } from "../organisms/about/ProfileImage"
 import styled from "styled-components"
 import { ProfileText } from "../organisms/about/ProfileText"
 import imagePath1 from '../organisms/about/img/sohyun1.jpg'
-import imagePath2 from '../organisms/about/img/sohyun2.jpg'
+import imagePath2 from '../organisms/about/img/flowerme.jpg'
 import imagePath3 from '../organisms/about/img/computer.jpg'
 
 
@@ -15,7 +15,7 @@ export const About = () => {
             <Sdiv>
             <Sp>About Sohyun</Sp>
             
-            <VStack padding={30}spacing={50} align="flex-start" divider={<StackDivider borderColor='#895B5B'/>}>
+            <VStack padding={30}spacing={50} align="flex-start">
                 <HStack spacing="100px" margin='auto'>
                     <ProfileImage imagePath={imagePath1}></ProfileImage>
                     <Ssp>
@@ -25,16 +25,25 @@ export const About = () => {
                     ></ProfileText>
                     </Ssp>
                 </HStack>
+                </VStack>
+            
+            
                 <Sp>About Project</Sp>
-                <HStack spacing="100px" margin='auto'>
-                    <ProfileImage imagePath={imagePath2}></ProfileImage>
-                    <Ssp>
-                    <ProfileText title1='good morning' content1='oniichan'
-                    title2='good afternoon' content2='onechan'
-                    title3='good night' content3='papa'
-                    ></ProfileText>
-                    </Ssp>
-                </HStack>
+
+                <VStack padding={30}spacing={50} align="flex-start">
+                    <HStack spacing="100px" margin='auto'>
+                        <ProfileImage imagePath={imagePath2}></ProfileImage>
+                        <Ssp>
+                        <ProfileText title1='good morning' content1='oniichan'
+                        title2='good afternoon' content2='onechan'
+                        title3='good night' content3='papa'
+                        ></ProfileText>
+                        </Ssp>
+                    </HStack>
+                    </VStack>
+                    
+                    <Sp>About Project</Sp>
+                <VStack padding={30}spacing={50} align="flex-start">
                 <HStack spacing="100px" margin='auto'>
                     <ProfileImage imagePath={imagePath3}></ProfileImage>
                     <Ssp>
@@ -43,9 +52,12 @@ export const About = () => {
                     title3='good night' content3='papa'
                     ></ProfileText>
                     </Ssp>
-                </HStack>
+            </HStack>
             </VStack>
+            
             </Sdiv>
+
+            
             <Sdiv>
             <CustomeDiv>
                 <Box>
