@@ -28,7 +28,7 @@ export const About = () => {
                 </VStack>
             
             
-                <Sp>About Project</Sp>
+                <Sp>About Portfolio</Sp>
 
                 <VStack padding={30}spacing={50} align="flex-start">
                     <HStack spacing="100px" margin='auto'>
