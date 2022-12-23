@@ -8,8 +8,7 @@ export const ProfileImage = (props) => {
 
             <Image boxSize="300px" marginLeft="100px"
             marginRight='100px'
-            border="4px"
-            borderColor="white"
+            border="1px"
             borderRadius="full"
             src= {imagePath}
             alt="プロフィール写真"
