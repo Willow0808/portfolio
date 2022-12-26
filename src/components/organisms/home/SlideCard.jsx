@@ -6,8 +6,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import styled from "styled-components";
-import someimage from "../home/img/some.png";
-import bgrimage from "../home/img/wireframe.png";
+import bgrimage1 from "../home/img/some.png";
+import bgrimage2 from "../home/img/wireframe.png";
+import bgrimage3 from "../about/img/figma.png";
+
 
 
 
@@ -32,18 +34,19 @@ export const SlideCard = () => {
                     <SwiperSlide>
                         <Box h="65vh" backgroundColor="#FFFFFF" color="black" 
                         border="2px" borderRadius="3px" alignItems="center">
-                            <a href="https://willow0808.github.io/flower_web/html/index.html" target="_blank"><Simg src={someimage} alt="flower-ecsite"/></a>
+                            <a href="https://willow0808.github.io/flower_web/html/index.html" target="_blank"><Simg src={bgrimage1} alt="flower-ecsite"/></a>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
                         <Box h="65vh" backgroundColor="#FFFFFF" color="black" 
                         border="2px" borderRadius="3px" alignItems="center">
-                           <a href="https://www.figma.com/file/ghBdI6RiYekeX7KogXgBUt/flower-ec?node-id=0%3A1&t=Nkh4DI2dX4sJ3Vm1-0" target="_blank"><Simg src={bgrimage} alt="ecsite_wireframe"/></a>
+                           <a href="https://www.figma.com/file/ghBdI6RiYekeX7KogXgBUt/flower-ec?node-id=0%3A1&t=Nkh4DI2dX4sJ3Vm1-0" target="_blank"><Simg src={bgrimage2} alt="ecsite_wireframe"/></a>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
                         <Box h="65vh" backgroundColor="#FFFFFF" color="black" 
                         border="2px" borderRadius="3px" alignItems="center">
+                            <a href="https://www.figma.com/file/ie0pgkl2v19yt2a3XmN6fu/Portfolio?node-id=13%3A10&t=CBqOAEvnMA9AuGjb-0"target="_blank"><Simg src={bgrimage3} alt="ecsite_wireframe"/></a>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
