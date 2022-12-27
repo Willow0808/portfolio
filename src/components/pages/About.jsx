@@ -82,7 +82,7 @@ export const About = () => {
 
                     他社のフラワーecsiteを見るとユーザーの立場から必ず必要な情報が目に入らないので
                     
-                    目に疲れを与えることが多いが、このサイトは中核となる情報をユーザーが見やすく、
+                    目に疲れを与えることが多いですが、このサイトは中核となる情報をユーザーが見やすく、
                     
                     利用しやすくデザインしました。'
 
@@ -94,19 +94,6 @@ export const About = () => {
             </HStack>
             </VStack>
                     </div>
-            
-            </Sdiv>
-
-            
-            <Sdiv>
-            <CustomeDiv>
-                <Box>
-                <Ssp>name: Yu Sohyun</Ssp>
-                <Ssp>e-mail: eireneyou94@gmail.com</Ssp>
-                <Ssp>phone: 08023041574</Ssp>
-                </Box>
-           
-            </CustomeDiv>
             
             </Sdiv>
 
@@ -130,13 +117,7 @@ const Sp =styled.p`
     font-size: 30px;
     `
 
-const CustomeDiv =styled.div`
-    padding-bottom: 10px;
-    margin-right: 30px;
-    display: flex;
-    text-align: left;
-    float: right;
-`
+
 const Ssp =styled.p`
     font-family: "Yusei Magic";
     font-size: 22px;

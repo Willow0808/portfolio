@@ -11,7 +11,7 @@ export const Footer = () => {
                 <Box>
                 <Ssp>name: Yu Sohyun</Ssp>
                 <Ssp>e-mail: eireneyou94@gmail.com</Ssp>
-                <Ssp>phone: 08023041574</Ssp>
+                
                 </Box>
            
             </CustomeDiv>
