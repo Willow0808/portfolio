@@ -21,7 +21,7 @@ export const About = () => {
                 <HStack spacing="150px" margin='auto'>
                     <ProfileImage imagePath={imagePath1}></ProfileImage>
                     <Ssp>
-                    <Text 
+                    <ProfileText 
 
                     content1='🌳 花と木をアレンジする道から
                     オンライン森をアレンジするITエンジニアxデザイナーの道へ🏃🏻‍♀️
@@ -33,7 +33,7 @@ export const About = () => {
                     今後は領域を広げてインターネットスペースをアレンジして
                     すべてのユーザーにより快適なサービスを提供したいです。'
                     >
-                    </Text>
+                    </ProfileText>
                     </Ssp>
                 </HStack>
                 </VStack>
