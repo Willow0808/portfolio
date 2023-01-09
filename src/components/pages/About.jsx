@@ -73,12 +73,10 @@ export const About = () => {
                 <HStack spacing="150px" margin='auto'>
                     <ProfileImage imagePath={imagePath3}></ProfileImage>
                     <Ssp>
-                 <>
                     <ProfileText
                 
                     
                     content1='🌸 Flowermarket EcSiteを選択した理由 :
-                    <br />
                     私がよく知っている分野である花、植物をアイテムに選定'
 
                     content2='🎨 デザインとレイアウト:
@@ -92,8 +90,9 @@ export const About = () => {
                     content3='💻 実装される機能 = javascriptを利用したカートに物を入れる(数量カウント機能)→
                     カートページに移動→商品削除機能
 
-                    ☄️以外の機能はデザインを中心に製作'></ProfileText>
-                </>
+                    ☄️以外の機能はデザインを中心に製作'>
+
+                    </ProfileText>
                     </Ssp>
             </HStack>
             </VStack>
